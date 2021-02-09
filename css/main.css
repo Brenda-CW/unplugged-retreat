@@ -162,7 +162,7 @@ textarea {
    }
 
    main figure {
-
+    max-width:20%;
    }
 
    /*  ------  FORM AREA  ------ */
@@ -171,7 +171,10 @@ textarea {
    }
 
    aside .content-wrapper {
-
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap:wrap;
    }
 
    .form-description {
@@ -187,16 +190,28 @@ textarea {
 
     .form .text {
       flex:1 0 auto;
+
     }
      
+  [value="email address"] {
+    width:100%;
+    height:30px;
+    }
     
+    [value="DOWNLOAD ITINERARY"] {
+      width:100%;
+      height:30px;
+    }
    /* --------  FEATURES AREA  ----------*/
    .features {
 
    }
 
    .features .content-wrapper {
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
    }
 
    .features figure {
@@ -204,11 +219,16 @@ textarea {
    }
 
    .features article {
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align:center;
    }
 
    .fontawesome-icon {
-
+    height:50px;
+    width:50px;
    }
 
    .features-item-description {
@@ -221,15 +241,22 @@ textarea {
    }
 
    .reviews .content-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
 
    }
 
    .reviews article {
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
    }
 
    .reviews article figure {
-
+    width:100%;
    }
    .review-lacrue {
 
@@ -241,7 +268,10 @@ textarea {
    }
 
    .mission .content-wrapper {
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
    }
 
    .mission-content {
@@ -268,7 +298,10 @@ textarea {
 
     }
     .contact-section .content-wrapper {
-
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap:wrap;
     }
     .contact-section address {
 
@@ -280,7 +313,10 @@ textarea {
    }
 
    .faq .content-wrapper {
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
    }
    .faq article {
 
