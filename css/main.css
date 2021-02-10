@@ -111,8 +111,7 @@ textarea {
    /*  HEADER STYLES  */
 
    header {
-    margin-top: 15px;
-    margin-bottom: 9px;
+    width:100%;
    }
    header .content-wrapper {
     display:flex;
@@ -120,7 +119,8 @@ textarea {
     align-items: center;
     flex-flow:row wrap;
     width:100%;
-    margin:0;
+    margin-top: 15px;
+    margin-bottom: 9px;
    }
 
   header figure {
@@ -177,7 +177,7 @@ textarea {
 
    aside .content-wrapper {
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap:wrap;
     background: #527158;
@@ -185,7 +185,10 @@ textarea {
    }
 
    .form-description {
-
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow:column wrap;
    }
 
    .form {
@@ -195,10 +198,10 @@ textarea {
     flex-flow:wrap;
    }
 
-    .form .text {
+    /**.form .text {
       flex:1 0 auto;
 
-    }
+    }   **/
      
   [value="name@email.com"] {
     width:100%;
@@ -278,7 +281,7 @@ textarea {
    }
 
    .reviews h3 {
-     width:48%;
+     width:52%;
    }
    /*------- MOBILE STYLES - ABOUT PAGE ---------*/
 
@@ -342,7 +345,11 @@ textarea {
    }
    /* --------- FOOTER -------- */
    footer {
-
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column wrap;
   }
 
   footer .content-wrapper{
