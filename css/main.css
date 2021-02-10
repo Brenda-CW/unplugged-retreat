@@ -86,15 +86,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  body {
+
+   body {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-flow:wrap;
-    padding:15px;
-    max-width:780px;
-    background-color:cadetblue;
-
+    min-width:360px;
+    color: #e2e3ed;
   }
 
    /* ---------  BASE HEADER - FOOTER STYLES -----------*/
@@ -105,19 +104,23 @@ textarea {
     justify-content:center;
     align-items: center;
     flex-flow:row wrap;
-    max-width: 90%;
+    background: #202322;
+
    }
 
    /*  HEADER STYLES  */
 
    header {
-
+    margin-top: 15px;
+    margin-bottom: 9px;
    }
    header .content-wrapper {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-flow:row wrap;
+    width:100%;
+    margin:0;
    }
 
   header figure {
@@ -128,11 +131,12 @@ textarea {
    }
 
    .header-divider {
-
+    width:100%;
+    color:#3a3a3a;
    }
 
     hr.solid {
-      border-top:3px solid #fff;
+      margin:0px;
     }
    header nav {
      width:60%;
@@ -151,7 +155,7 @@ textarea {
    /* ---------  MOBILE STYLES - HOME PAGE-----------*/
 
    .hero-area {
-
+    padding: 0 20px;
    }
 
    .hero-area .content-wrapper {
@@ -162,11 +166,12 @@ textarea {
    }
 
    main figure {
-    max-width:20%;
+
    }
 
    /*  ------  FORM AREA  ------ */
    aside {
+
 
    }
 
@@ -175,6 +180,8 @@ textarea {
     justify-content: flex-start;
     align-items: center;
     flex-wrap:wrap;
+    background: #527158;
+    padding: 20px;
    }
 
    .form-description {
@@ -193,18 +200,24 @@ textarea {
 
     }
      
-  [value="email address"] {
+  [value="name@email.com"] {
     width:100%;
-    height:30px;
+    height:50px;
+    background: white;
+    border:none;
+    color: #bfc0e7;
+    /****  HOW DO I ADD SPACES BEFORE EMAIL IN BOX  ***/
     }
     
     [value="DOWNLOAD ITINERARY"] {
       width:100%;
-      height:30px;
+      height:50px;
+      background: #2a423a;
+    color: #e2e3ed;
     }
    /* --------  FEATURES AREA  ----------*/
    .features {
-
+    margin: 0px;
    }
 
    .features .content-wrapper {
@@ -212,6 +225,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
+    padding: 0 20px;
    }
 
    .features figure {
@@ -224,6 +238,7 @@ textarea {
     align-items: center;
     flex-wrap:wrap;
     text-align:center;
+    width: 55%;
    }
 
    .fontawesome-icon {
@@ -245,7 +260,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
-
+    padding: 0 20px;
    }
 
    .reviews article {
@@ -260,6 +275,10 @@ textarea {
    }
    .review-lacrue {
 
+   }
+
+   .reviews h3 {
+     width:48%;
    }
    /*------- MOBILE STYLES - ABOUT PAGE ---------*/
 
@@ -327,10 +346,10 @@ textarea {
   }
 
   footer .content-wrapper{
-    /*  display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:wrap;   */
+    width:55%;
+    margin:52px;
+
+
   }
 
   footer .footer-content {
@@ -363,6 +382,9 @@ textarea {
     align-items: center;
   }
 
+  footer .social-icons p {
+    margin: 0px;
+  }
   footer .copyright {
 
   }
