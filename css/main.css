@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   body {
+  body {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@ textarea {
 
    /* ---------  BASE HEADER - FOOTER STYLES -----------*/
 
-   header,
+  header,
    footer {
     display: flex;
     justify-content:center;
@@ -110,10 +110,11 @@ textarea {
 
    /*  HEADER STYLES  */
 
-   header {
+  header {
     width:100%;
-   }
-   header .content-wrapper {
+  }
+
+  header .content-wrapper {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -121,87 +122,84 @@ textarea {
     width:100%;
     margin-top: 15px;
     margin-bottom: 9px;
-   }
+  }
 
   header figure {
     text-align:center;
   }
-   header figure img {
-    max-width:100%;
-   }
 
-   .header-divider {
+  header figure img {
+    max-width:100%;
+  }
+
+  .header-divider {
     width:100%;
     color:#3a3a3a;
-   }
+  }
 
-    hr.solid {
+  hr.solid {
       margin:0px;
-    }
-   header nav {
+  }
+
+  header nav {
      width:60%;
-   }
+  }
 
-    header nav ul {
-      list-style: none;
-      padding: 0px;
-      display:flex;
-      justify-content: space-around;
-      align-items: center;
-
-    }
+  header nav ul {
+    list-style: none;
+    padding: 0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
    
 
    /* ---------  MOBILE STYLES - HOME PAGE-----------*/
 
-   .hero-area {
-    padding: 0 20px;
-   }
-
-   .hero-area .content-wrapper {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-   }
-
-   main figure {
-
-   }
-
-   /*  ------  FORM AREA  ------ */
-   aside {
-
-
-   }
-
-   aside .content-wrapper {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
+  .hero-area {
     background: #527158;
-    padding: 20px;
-   }
+  }
 
-   .form-description {
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow:column wrap;
-   }
-
-   .form {
+  .hero-area .content-wrapper {
     display:flex;
     justify-content: flex-start;
-    align-items:center;
-    flex-flow:wrap;
-   }
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
 
-    /**.form .text {
-      flex:1 0 auto;
+  main figure {
+    width: 100%;
+    margin: 0px;
+  }
 
-    }   **/
+   /*  ------  FORM AREA  ------ */
+  aside {
+  }
+
+  aside .content-wrapper {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow:column nowrap;
+    background: #527158;
+    padding: 20px;
+  }
+
+  .form-description {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow:column nowrap;
+  }
+
+  .form {
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-flow:column nowrap;
+    width: 100%;
+  }
      
   [value="name@email.com"] {
     width:100%;
@@ -210,141 +208,148 @@ textarea {
     border:none;
     color: #bfc0e7;
     /****  HOW DO I ADD SPACES BEFORE EMAIL IN BOX  ***/
-    }
+  }
     
-    [value="DOWNLOAD ITINERARY"] {
+  [value="DOWNLOAD ITINERARY"] {
       width:100%;
       height:50px;
       background: #2a423a;
     color: #e2e3ed;
-    }
+  }
    /* --------  FEATURES AREA  ----------*/
-   .features {
+  
+  .features {
     margin: 0px;
-   }
+    background-color: beige;
+  }
 
-   .features .content-wrapper {
+  .features .content-wrapper {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
     padding: 0 20px;
-   }
+  }
 
-   .features figure {
+  .features figure {
+  }
 
-   }
-
-   .features article {
+  .features article {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
     text-align:center;
     width: 55%;
-   }
+  }
 
-   .fontawesome-icon {
+  .fontawesome-icon {
     height:50px;
     width:50px;
-   }
+  }
 
-   .features-item-description {
-
-   }
+  .features-item-description {
+  }
 
    /* --------  REVIEWS SECTION --------  */
-   .reviews {
+  .reviews {
+    background-color: #2a423a;
+  }
 
-   }
-
-   .reviews .content-wrapper {
+  .reviews .content-wrapper {
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap:wrap;
     padding: 0 20px;
-   }
+  }
 
-   .reviews article {
+  .reviews article {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
-   }
+  }
 
-   .reviews article figure {
+  .reviews article figure {
     width:100%;
-   }
-   .review-lacrue {
+  }
+  
+  .review-lacrue {
+  }
 
-   }
-
-   .reviews h3 {
-     width:52%;
-   }
+  .reviews h3 {
+  }
    /*------- MOBILE STYLES - ABOUT PAGE ---------*/
 
-   .mission {
+  .mission {
+    width:100%;
+    background: #527158;
+  }
 
-   }
+  .mission .content-wrapper {
 
-   .mission .content-wrapper {
-    display:flex;
+  }
+
+  .mission-content {
+    margin: 0px 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
-   }
-
-   .mission-content {
-
-   }
+    flex-flow: column wrap;
+  }
 
    /* ------ MAP AREA -------*/
 
-   .map {
-
+  .map {
+    background: bisque;
+    height: 150px;
    }
 
-    .map .content-wrapper {
+  .map .content-wrapper {
 
-    }
+  }
 
-    .map figure {
+  .map figure {
 
-    }
+  }
 
     /* ---------ABOUT - CONTACT SECTION  -------- */
 
-    .contact-section {
-
-    }
-    .contact-section .content-wrapper {
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap:wrap;
-    }
-    .contact-section address {
-
-    }
-   /* -------------- MOBILE STYLES - FAQ PAGE ---------*/
-
-   .faq {
-
-   }
-
-   .faq .content-wrapper {
+  .contact-section {
+    background-color: #2a423a;
+  }
+  .contact-section .content-wrapper {
     display:flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
-   }
-   .faq article {
+    align-items: flex-start;
+    flex-flow:column wrap;
+    margin: 0px 20px;
+    padding-bottom: 30px;
+  }
 
+  .contact-section address {
+  }
+   /* -------------- MOBILE STYLES - FAQ PAGE ---------*/
+
+  .faq {
+    width: 100%;
+    background-color: #527158;
+  }
+
+  .faq .content-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    margin: 0px 20px;
+  }
+
+   .faq article {
    }
+
    /* --------- FOOTER -------- */
-   footer {
+  footer {
     width: 100%;
     display:flex;
     justify-content: center;
@@ -355,8 +360,6 @@ textarea {
   footer .content-wrapper{
     width:55%;
     margin:52px;
-
-
   }
 
   footer .footer-content {
@@ -365,6 +368,7 @@ textarea {
     align-items: center;
     flex-flow: column nowrap;
   }
+
   footer .contact {
     display:flex;
     justify-content: center;
@@ -392,9 +396,10 @@ textarea {
   footer .social-icons p {
     margin: 0px;
   }
-  footer .copyright {
 
+  footer .copyright {
   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -476,23 +481,242 @@ textarea {
 .clearfix::after {
   clear: both;
 }
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet Styles here */
+
+header .content-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap:nowrap;
+width: 83%;
+margin: 30px 0px;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+header figure {
+  width:34%;
+  margin:0;
 }
+
+.header-divider {
+  width: 0px;
+  color: #3a3a3a;
+}
+
+header nav {
+  width: 20%;
+}
+
+footer .content-wrapper {
+  width: 80%;
+  margin: 100px 65px;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: nowrap;
+}
+
+footer .contact, .social, h3 {
+  margin:0px;
+}
+/****   HOME PAGE TABLET STYLES  ****/
+.hero-area .content-wrapper {
+  padding: 0px 65px;
+  width: 83%;
+}
+
+aside .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow:row;
+  background: #527158;
+  padding: 50px 65px;
+}
+
+.form-description {
+flex-flow:column wrap;
+}
+
+.form-description h3 {
+}
+
+.form-description p {
+  margin-block-start: 0px;
+  margin-inline-end: 95px;
+}
+
+.features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 65px;
+}
+
+.features,.reviews .content-wrapper h2 {
+  margin: 0px;
+}
+
+.features article {
+  /** display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;  **/
+  width: 31%;
+  padding: 0 28px;
+}
+
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 65px;
+}
+
+.reviews h2{
+  padding-bottom:20px;
+}
+.reviews article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.reviews .content-wrapper figure{
+  padding-right: 15px;
+  height: 200px;
+  margin: 0px;
+}
+
+.review-lacrue {
+  width:80%;
+}
+/*******   ABOUT PAGE TABLET STYLES *********/
+
+.mission-content {
+  margin: 0px 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.mission .content-wrapper {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: wrap;
+  padding-right:15px;
+}
+
+.mission h2 {
+  padding-top:50px;
+}
+.mission p{
+  width:46%;
+  padding-bottom: 50px;
+}
+
+.contact-section .content-wrapper {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: wrap; 
+  width:83%;
+  height:250px;
+  margin: 0px 65px;
+  padding-bottom: 30px;
+}
+
+.contact-section h2{
+  width:100%;
+  padding-top: 30px;
+}
+
+.general-contact, .facilitator-contact{
+  width:40%;
+  height: 150px;
+}
+
+.contact-section h3{
+  padding: 15px 0px;
+}
+
+/****** FAQ PAGE STYLES  ********/
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: wrap;
+  margin: 0px 65px;
+}
+
+.faq .content-wrapper h2 {
+  width:100%;
+  padding: 50px 0px;
+}
+
+.faq .content-wrapper article {
+  width:45%;
+  padding-bottom:50px;
+}
+}
+/*********** END OF TABLET STYLES  *********/
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop Styles here */
+  
+header .content-wrapper {
+  width: 80%;
+}
+
+.hero-area .content-wrapper {
+  padding: 0px 120px;
+  width: 80%;
+}
+
+aside .content-wrapper {
+  padding: 50px 120px;
+}
+
+.features .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 120px;
+}
+
+.features .content-wrapper h2 {
+  text-align:left;
+  width: 100%;  
+}
+
+.features article {
+  width: 27%;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+.features-item-description{
+  margin:0px;
+}
+}
+
 
 /* ==========================================================================
    Print styles.
