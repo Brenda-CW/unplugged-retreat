@@ -680,44 +680,89 @@ flex-flow:column wrap;
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles here */
   
-header .content-wrapper {
-  width: 80%;
-}
+  header .content-wrapper {
+  /***   width: 80%;   ***/
+  }
 
-.hero-area .content-wrapper {
+  .hero-area .content-wrapper {
   padding: 0px 120px;
   width: 80%;
-}
+  justify-content: space-between;
+  }
 
-aside .content-wrapper {
-  padding: 50px 120px;
-}
+  aside .content-wrapper {
+  padding: 50px 200px;
+  }
 
-.features .content-wrapper {
+  .form-description{
+  width: 320px;
+  padding-right:160px;
+  }
+  .form {
+  width:320px;
+  }
+
+  .features .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding: 100px 120px;
-}
+  }
 
-.features .content-wrapper h2 {
+  .features .content-wrapper h2 {
   text-align:left;
+  margin-bottom: 99px;
   width: 100%;  
-}
+  }
 
-.features article {
+  .features article {
   width: 27%;
   padding-left: 40px;
   padding-right: 0px;
-}
+  }
 
-.features-item-description{
+  .features-item-description {
   margin:0px;
-}
-}
+  } 
 
+  .reviews .content-wrapper h2 {
+  width:100%;
+  margin-bottom: 99px;
+  padding-bottom: 0px;
+  }
 
+  .reviews .content-wrapper{
+  width: 80%;
+  padding: 100px 120px;
+  }
+
+  .reviews .content-wrapper figure {
+  padding-right: 43px;
+  }
+
+  footer .content-wrapper {
+    width: 80%;
+    margin: 100px 120px;
+  }
+  /*******   ABOUT PAGE DESKTOP STYLES *********/
+
+    .mission .content-wrapper {
+      padding: 100px 120px;
+    }
+
+    .mission-content {
+      margin: 0px;
+    }
+
+    .contact-section  .content-wrapper {
+      padding: 100px 120px;
+      margin: 0px;
+    }
+
+    .general-contact, .facilitator-contact {
+      width: 50%;
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
