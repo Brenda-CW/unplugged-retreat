@@ -762,6 +762,15 @@ flex-flow:column wrap;
 
     .general-contact, .facilitator-contact {
       width: 50%;
+    }
+
+      /*******   FAQ PAGE DESKTOP STYLES *********/
+
+    .faq .content-wrapper{
+      padding: 0px 120px;
+      margin: 0px;
+}
+    }
 }
 /* ==========================================================================
    Print styles.
