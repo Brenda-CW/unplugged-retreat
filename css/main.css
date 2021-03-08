@@ -220,7 +220,11 @@ address {
    /* ---------  MOBILE STYLES - HOME PAGE-----------*/
 
   .hero-area {
-    background: #527158;
+    background-image: url("../img/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #222;
   }
 
   .hero-area .content-wrapper {
@@ -294,6 +298,7 @@ address {
   .features {
     margin: 0px;
     background-color: beige;
+    background-image: url("../img/feature-bcgd-72.jpg");
   }
 
   .features .content-wrapper {
