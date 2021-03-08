@@ -86,6 +86,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+}
+
+ul, ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: normal;
+
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  font-weight: normal;
+  line-height: 2em;
+}
+
+p address, .copyright  {
+  font-family: 'Open Sans', sans-serif;
+  font-size:0.875em;
+  color: #e2e3ed;
+}
+
+img {}
+
+figure {}
+
+address {
+  font-family: 'Open Sans', sans-serif;
+  font-size:0.875em;
+}
+
+.content-wrapper
+/******* END OF GENERAL STYLES *********/
 
   body {
     display:flex;
@@ -126,6 +186,7 @@ textarea {
 
   header figure {
     text-align:center;
+    width:61%;
   }
 
   header figure img {
@@ -688,6 +749,10 @@ flex-flow:column wrap;
   padding: 0px 120px;
   width: 80%;
   justify-content: space-between;
+  }
+
+  .hero-area .content-wrapper h1{
+    width: 80%;
   }
 
   aside .content-wrapper {
