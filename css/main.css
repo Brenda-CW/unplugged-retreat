@@ -592,7 +592,7 @@ footer .contact, .social, h3 {
 /****   HOME PAGE TABLET STYLES  ****/
 .hero-area .content-wrapper {
   padding: 0px 65px;
-  width: 83%;
+  /*width: 83%;*/
 }
 
 aside .content-wrapper {
@@ -704,7 +704,6 @@ flex-flow:column wrap;
 
 .contact-section h2{
   width:100%;
-  padding-top: 30px;
 }
 
 .general-contact, .facilitator-contact{
@@ -742,31 +741,39 @@ flex-flow:column wrap;
   /* Desktop Styles here */
   
   header .content-wrapper {
-  /***   width: 80%;   ***/
+  width: 100%;
+  padding: 0 120px;
+  }
+
+  header nav ul {
+    justify-content: space-between;
   }
 
   .hero-area .content-wrapper {
-  padding: 0px 120px;
-  width: 80%;
-  justify-content: space-between;
+    padding: 0 120px;
   }
 
   .hero-area .content-wrapper h1{
-    width: 80%;
+    width: 100%;
+    text-align: left;
   }
 
   aside .content-wrapper {
+  justify-content: space-between;
   padding: 50px 200px;
   }
 
   .form-description{
   width: 320px;
-  padding-right:160px;
   }
+
   .form {
   width:320px;
   }
 
+  .form-description p {
+    margin-inline-end: auto;
+  }
   .features .content-wrapper {
   display: flex;
   justify-content: space-between;
@@ -798,7 +805,6 @@ flex-flow:column wrap;
   }
 
   .reviews .content-wrapper{
-  width: 80%;
   padding: 100px 120px;
   }
 
@@ -807,7 +813,6 @@ flex-flow:column wrap;
   }
 
   footer .content-wrapper {
-    width: 80%;
     margin: 100px 120px;
   }
   /*******   ABOUT PAGE DESKTOP STYLES *********/
