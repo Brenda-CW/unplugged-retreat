@@ -329,8 +329,13 @@ address {
   }
 
   .fontawesome-icon {
-    height:50px;
-    width:50px;
+   margin:0px;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-top:30px;
+    margin-bottom: 10px;
   }
 
   .features-item-description {
@@ -687,7 +692,7 @@ flex-flow:column wrap;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;  **/
-  width: 31%;
+  width: 36%;
   padding: 0 28px;
 }
 
@@ -862,21 +867,35 @@ flex-flow:column wrap;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 100px 120px;
+  padding-bottom: 70px;
+  padding-right: 120px;
+  padding-left: 120px;
   }
 
   .features .content-wrapper h2 {
   text-align:left;
-  margin-bottom: 99px;
+  margin-bottom: 39px;
   width: 100%;  
   }
 
   .features article {
-  width: 27%;
+  width: 22.5%;
   padding-left: 40px;
   padding-right: 0px;
+  padding-bottom: 30px;
   }
 
+  /********* FROM MOBILE STYLES  ********
+.fontawesome-icon {
+  margin:0px;
+ }
+
+ .features i {
+   font-size: 3.75em;
+   margin-top:30px;
+   margin-bottom: 10px;
+ }
+**************************************/
   .features-item-description {
   margin:0px;
   } 
