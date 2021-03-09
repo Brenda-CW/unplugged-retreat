@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*General Styles */
+/*************    General Styles     ***************/
 html {
   font-size: 16px;
 }
@@ -147,7 +147,7 @@ address {
 }
 
 .content-wrapper
-/******* END OF GENERAL STYLES *********/
+/******************************* END OF GENERAL STYLES **************************/
 
   body {
     display:flex;
@@ -158,7 +158,7 @@ address {
     color: #e2e3ed;
   }
 
-   /* ---------  BASE HEADER - FOOTER STYLES -----------*/
+   /* ----------------------  BASE HEADER - FOOTER STYLES -----------------*/
 
   header,
    footer {
@@ -167,10 +167,9 @@ address {
     align-items: center;
     flex-flow:row wrap;
     background: #202322;
-
    }
 
-   /*  HEADER STYLES  */
+   /*************************  HEADER STYLES  ************************/
 
   header {
     width:100%;
@@ -378,7 +377,7 @@ address {
   }
   .reviews h3 {
   }
-   /*------- MOBILE STYLES - ABOUT PAGE ---------*/
+   /*----------------- MOBILE STYLES - ABOUT PAGE ----------------*/
 
   .mission {
     width:100%;
@@ -398,7 +397,7 @@ address {
     flex-flow: column wrap;
   }
 
-   /* ------ MAP AREA -------*/
+   /* ---------------------- MAP AREA -----------------*/
 
   .map {
     background: bisque;
@@ -418,8 +417,6 @@ address {
     top: 0;
     left: 0;
   }
-
-  
 
     /* ---------ABOUT - CONTACT SECTION  -------- */
   
@@ -463,7 +460,7 @@ address {
      padding-bottom: 25px;
    }
 
-   /* --------- FOOTER -------- */
+   /********************    FOOTER STYLES  ******************/
   footer {
     width: 100%;
     display:flex;
@@ -497,19 +494,25 @@ address {
 
   footer .social {
     display:flex;
-    justify-content: center;
     align-items: center;
     flex-flow:column wrap;
   }
 
   footer .social-icons{
     display:flex;
-    justify-content: space-around;
-    align-items: center;
   }
 
   footer .social-icons p {
-    margin: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    height:40px;
+    width: 40px;
+  }
+
+  footer .social-icons i {
+  font-size: 2em;
   }
 
   footer .copyright {
