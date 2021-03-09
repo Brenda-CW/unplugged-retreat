@@ -397,12 +397,11 @@ address {
 
   .map {
     background: bisque;
-    height: 150px;
    }
 
    .map-container {
     height: 0;
-    padding-bottom: 75%;
+    padding-bottom: 56.25%;
     overflow: hidden;
     position: relative;
   }
@@ -752,6 +751,22 @@ flex-flow:column wrap;
   padding-bottom: 50px;
 }
 
+.map-container {
+  height: 0;
+  padding-bottom: 46%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 .contact-section .content-wrapper {
   display:flex;
   justify-content: space-between;
@@ -886,11 +901,21 @@ flex-flow:column wrap;
   /*******   ABOUT PAGE DESKTOP STYLES *********/
 
     .mission .content-wrapper {
-      padding: 100px 120px;
+      padding: 50px 120px;
     }
-
+    .mission h2 {
+      padding-top: 0px;
+    }
     .mission-content {
       margin: 0px;
+      padding: 0px;
+    }
+
+    .map-container {
+      height: 0;
+      padding-bottom: 40%;
+      overflow: hidden;
+      position: relative;
     }
 
     .contact-section  .content-wrapper {
