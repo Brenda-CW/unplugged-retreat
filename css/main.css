@@ -233,6 +233,7 @@ address {
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 20px;
+    height: 450px;
   }
 
   main figure {
@@ -299,6 +300,9 @@ address {
     margin: 0px;
     background-color: beige;
     background-image: url("../img/feature-bcgd-72.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .features .content-wrapper {
@@ -352,8 +356,11 @@ address {
     flex-wrap:wrap;
   }
 
-  .reviews article figure {
+  .reviews img {
     width:100%;
+  }
+
+  .reviews article figure {
     padding: 20px 0;
     margin: 0px;
   }
@@ -626,7 +633,11 @@ footer .contact, .social, h3 {
 /****   HOME PAGE TABLET STYLES  ****/
 .hero-area .content-wrapper {
   padding: 0px 65px;
-  /*width: 83%;*/
+  height: 370px;
+}
+
+.hero-area .content-wrapper h1 {
+  width: 80%;
 }
 
 aside .content-wrapper {
@@ -686,19 +697,26 @@ flex-flow:column wrap;
 .reviews article {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: nowrap;
 }
 
-.reviews .content-wrapper figure{
+.reviews article figure {
   padding-right: 15px;
-  height: 200px;
-  margin: 0px;
+  /*height: 200px;   
+  margin: 0px;  **/
+  width: 80%;
+}
+
+.reviews h3{
+  padding-top:10px;
 }
 
 .review-lacrue {
   width:80%;
 }
+
+
 /*******   ABOUT PAGE TABLET STYLES *********/
 
 .mission-content {
@@ -783,12 +801,15 @@ flex-flow:column wrap;
     justify-content: space-between;
   }
 
+
+
   .hero-area .content-wrapper {
     padding: 0 120px;
+    height: 600px;
   }
 
   .hero-area .content-wrapper h1{
-    width: 100%;
+    width: 55%;
     text-align: left;
   }
 
